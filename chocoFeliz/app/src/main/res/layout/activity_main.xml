@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F43636"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="223dp"
+        android:text="Choco Feliz"
+        android:textColor="#FFFFFF"
+        android:textSize="58sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnContato"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnContato"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="26dp"
+        android:text="Contato"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnSobre"
+        app:layout_constraintEnd_toEndOf="@+id/btnSobre"
+        app:layout_constraintStart_toStartOf="@+id/btnSobre"
+        app:layout_constraintTop_toBottomOf="@+id/textNome" />
+
+    <Button
+        android:id="@+id/btnSobre"
+        android:layout_width="330dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="155dp"
+        android:text="Sobre Nós"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnContato" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

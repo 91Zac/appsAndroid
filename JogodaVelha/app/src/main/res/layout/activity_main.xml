@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn22"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="2dp"
+        android:layout_toLeftOf="@id/btn22"
+        android:textSize="24sp" />
+
+    <Button
+
+        android:id="@+id/btn12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn22"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="6dp"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn22"
+        android:layout_marginRight="6dp"
+        android:layout_toRightOf="@id/btn22"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="6dp"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="6dp"
+        android:layout_toRightOf="@id/btn22"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="6dp"
+        android:layout_toLeftOf="@id/btn22"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn22"
+        android:layout_marginRight="6dp"
+        android:layout_toLeftOf="@id/btn22"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn22"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="6dp"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn22"
+        android:layout_toRightOf="@id/btn22"
+
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="187dp"
+        android:layout_height="74dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="61dp"
+        android:text="Reset"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/txtJogador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        android:textSize="30dp" />
+</RelativeLayout>

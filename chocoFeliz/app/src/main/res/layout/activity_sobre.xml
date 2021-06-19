@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F43636"
+    tools:context=".Sobre">
+
+    <TextView
+        android:id="@+id/txtLOgotipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="57dp"
+        android:layout_marginBottom="147dp"
+        android:text="Choco Feliz"
+        android:textColor="#FFFFFF"
+        android:textSize="58sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtTexto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtTexto"
+        android:layout_width="372dp"
+        android:layout_height="199dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="127dp"
+        android:text="Somos a Choco Feliz, A mais de 15 anos o chocolate que te faz feliz!!"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnVMenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLOgotipo" />
+
+    <Button
+        android:id="@+id/btnVMenu"
+        android:layout_width="215dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="45dp"
+        android:text="Voltar para o Menu"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTexto"
+        app:rippleColor="#FFFFFF" />
+</androidx.constraintlayout.widget.ConstraintLayout>
